@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-animation"></div>
+    <div class="quote-marks left">&ldquo;</div>
+    <div class="quote-marks right">&rdquo;</div>
+    <div class="container" id="quote-container">
+        <h1>Quote Generator</h1>
+        <div class="quote" id="quote">Click the button below to generate a quote!</div>
+        <div class="author" id="author"></div>
+        <button onclick="generateQuote()">Generate Quote</button>
+    </div>
+    <div class="background-shapes">
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <script src="scripts.js"></script> 
+</body>
+</html>
